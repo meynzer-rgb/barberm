@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.text-gold {
+  color: #c59d5f;
+}
+
+.btn-gold {
+  background-color: #c59d5f;
+  border: none;
+}
+
+.btn-gold:hover {
+  background-color: #b08a4f;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
