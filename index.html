@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BarberShop | Стиль для настоящико мужчин</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="bg-dark text-white py-4">
+    <div class="container">
+      <h1 class="text-center mb-3">BarberShop "Курдово"</h1>
+      <nav class="text-center">
+        <a href="#services" class="text-white mx-3 text-decoration-none">Услуги</a>
+        <a href="#gallery" class="text-white mx-3 text-decoration-none">Галерея</a>
+        <a href="#contact" class="text-white mx-3 text-decoration-none">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Наши услуги</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h3 class="card-title text-gold">Стрижка</h3>
+              <p class="card-text">Классическая мужская стрижка с использованием ножниц и машинки.</p>
+              <p><strong>от 1000 ₽</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h3 class="card-title text-gold">Бритьё бороды</h3>
+              <p class="card-text">Уход за бородой: стрижка, укладка, бритьё острыми лезвиями.</p>
+              <p><strong>от 800 ₽</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h3 class="card-title text-gold">Уход за бровями</h3>
+              <p class="card-text">Коррекция и укладка бровей для идеальной формы.</p>
+              <p><strong>от 500 ₽</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Галерея работ</h2>
+      <div class="row g-3">
+        <div class="col-md-3 col-sm-6">
+          <img src="images/1.jpg" class="img-fluid rounded" alt="Стрижка 1">
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img src="images/2.jpg" class="img-fluid rounded" alt="Бритьё бороды">
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img src="images/3.jpg" class="img-fluid rounded" alt="Укладка бороды">
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img src="images/4.jpg" class="img-fluid rounded" alt="Стрижка 2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Записаться на приём</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form id="bookingForm">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Ваше имя" required>
+            </div>
+            <div class="mb-3">
+              <input type="tel" class="form-control" placeholder="Телефон" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Комментарий (например, какую стрижку хотите)"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold w-100">Записаться</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2025 BarberShop "Курдово". Все права защищены.</p>
+      <p>г. Кудрово, ул. Ленинградская, д.9/8</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
